@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Employee Search</title>
+<link rel="stylesheet" href="css/font-awesome.css" />
+<style>
+body {
+    font-family: verdana;
+	font-size: 14px;
+	color:#333;
+	line-height:16px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+
+
+
+
+.table-grid {
+	border: solid 1px #cccccc;
+	border-collapse: collapse;
+	width:100%;
+	margin-top:15px;
+}
+
+
+.table-grid tr {
+	border-top:solid 1px #cccccc;
+}
+
+.table-grid th, .table-grid td {
+	padding:10px;
+	text-align: left;
+}
+.table-gred {
+     
+	 border-collapse: collapse;
+	 width:100%;
+	 margin-top:15px;
+	 font-family:Times new Roman;
+	 font-size:15px;
+	 color:black;
+	 }
+.table gred tr {
+	       
+		   }
+.badge{
+	width:40px;
+	height: 40px;
+	border-radius:50px ;
+	background-color:#555;
+	color:#fff;
+	font-weight:700;
+	display: inline-block;
+	line-height:40px; 
+	text-align: center;
+	font-size: 18px;
+	
+}
+.cadge
+{														
+  
+  height:40px;
+  border-radius:20px;
+  background-color:#ccc;
+  color:#000;
+  font-weight:normal;
+  display:inline-block;
+  line-height:40px;
+  text-align:bottom;
+  padding-right:20px;
+ 
+  }
+  .table gred
+{
+  font-weight:700;
+  font-size:28px;
+  background-color:#555;
+  }
+  
+  input[type="text"]{
+  border:solid 1px transparent;
+  padding:5px 10px;
+  }
+  input[type="text"]:focus{outline:none;}
+  input.textbox{
+	border-bottom-color:#ccc;
+  }
+  .btn-search{cursor: pointer; background-color: #fff;  font-size: 16px; border: none; padding:5px 10px;}
+  .btn-search:hover{background-color: #333; color:#fff; }
+  .btn-search .fa{margin-right:10px;}
+  .mb-15{margin-bottom:15px;}
+</style>
+</head>
+<body>
+
+<h1>Employee  Search</h1>
+<table class="mb-15" cellpadding="5">
+	<tr>
+      <td><input id="textbox" type="text" class="textbox"> </td>
+	  <td><button class="btn-search"><i class="fa fa-search"></i>Search</button></td>
+    </tr>
+<table>
+<table>
+	<tr>
+    	<td width="50%"><span class="cadge"><span class="badge">1</span> Emp</span></td> 
+     </tr>
+<table>
+<table class="table-grid">
+<thead>
+	<tr>
+	<th>S.No</th>
+    <th>Employee Serial Number</th>
+     <th>Employee Name</th>
+      <th>Designation</th>
+        <th>Qualification</th>
+          <th>Experience</th>
+           <th>Skills</th>
+    </tr>
+    </thead>
+    <tbody>
+    	<tr>
+		<td>1</td>
+        	<td>W3G001</td>
+        	
+            <td>
+            	Mukesh MohanBabu
+            </td>
+             <td>
+            	Intern
+            </td>
+            <td>
+            	B.E
+            </td>
+            <td>
+            0
+            </td>
+            <td>
+            Java
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+<table class="table-gred">
+	<tr>
+    	<td>
+        	Rows per page 
+            <select>
+            	<option value="10">10</option>
+                <option value="20">20</option>    
+                <option value="30">30</option> 
+            </select>
+        </td>
+        <td>
+        	1-9 of 9
+        </td>
+        <td align="right">
+        	<button>&lt;</button><button>1</button><button>2</button><button>&gt;</button>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
